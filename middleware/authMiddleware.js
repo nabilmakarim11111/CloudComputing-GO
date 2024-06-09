@@ -1,5 +1,5 @@
 const { verifyToken } = require('../utils/jwtUtils');
-const db = require('../db/firestore');
+const { db } = require('../db/firestore');
 
 const authMiddleware = async (req, res, next) => {
     const token = req.headers.authorization;
