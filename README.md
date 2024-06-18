@@ -332,7 +332,7 @@ The ML model API provides product recommendation system, product list based on s
 
 * Response:
 ```json
-[[
+[
     {
         "Brand": "LA MER",
         "Combination": 1,
